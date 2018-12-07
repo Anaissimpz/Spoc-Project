@@ -1,0 +1,119 @@
+@media only screen and (min-width: 480px){
+	.index {
+  font-family: 'Work Sans', sans-serif;
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYYiMHmQ4AntVfq9gbgpulX213YdpDed_U8oLY1m3S2ZSF6Oy3);
+   background-size: cover;
+   background-repeat: no-repeat;
+  
+}
+.gallery {
+  font-family: 'Work Sans', sans-serif;
+  background-image:url(https://images.unsplash.com/photo-1530482817083-29ae4b92ff15?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=44f4aebbd1e1371d5bf7dc22016c5d29&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+ .contact{
+  font-family: 'Work Sans', sans-serif;
+  background-image:url(https://ak9.picdn.net/shutterstock/videos/22883449/thumb/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+nav{
+   max-width: 500px;
+   margin: 0 auto;
+   padding: 10px 0;
+   margin-right: 0%;
+}
+nav>ul{
+  text-align:right;
+}
+  ul>li {
+    display:inline-block;
+}
+nav>ul>li>a {
+padding: 18px;
+margin-right: 0;
+text-transform: uppercase;
+text-decoration: none;
+display: block;
+color: white;
+font-weight: 500;
+}
+nav>ul>li>a:hover {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
+background: rgba(221, 109, 35, 0.678);
+color: rgba(0, 35, 122, 0.7);
+}
+ h1,h2{
+	text-align: center;
+	text-shadow: 3px 3px 3px rgba(198,137,131);
+	font-family: lucida fax;
+}
+.index p{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight:bold;
+	
+}
+#gallery{
+	padding: 20px;
+	justify-content:center;
+	margin: 30px;
+	text-align: justify;
+}
+#gallery img{
+  float:left;
+}
+#musician,#night,#view,#beauty{
+  justify-content:center;
+  display:flex;
+  margin:30px;
+}
+#gallery p{
+  margin:20px;
+  font-size: 20px;
+  font-weight:bold;
+  font-family: lucida fax;
+}
+
+h3{
+text-align: center;
+	text-shadow: 3px 3px 3px rgba(198,137,131);	
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    opacity:0.5;
+  
+}
+    
+    table {
+    border-collapse: collapse;
+  }
+
+table, td {
+    border: 1px solid black;
+    padding:16px;
+    color:black;
+
+}
+
+.table p{
+  font-size: 15px;
+  font-weight:bold;
+  font-family: lucida fax;
+  color:black;
+}
+.table h3{
+text-align: left;
+	text-shadow: 3px 3px 3px rgba(198,137,131);	
+	color:black;
+}
+}
